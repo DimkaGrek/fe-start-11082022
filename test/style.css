@@ -1,0 +1,13 @@
+body{
+    background: rgb(137,137,137);
+}
+p,span{
+    font-size: 20px;
+    color: blue;
+}
+#id-select{
+    color: black;
+}
+.class-select{
+    color: white;
+}

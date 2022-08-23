@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    border-radius: 0px;
+}
+header {
+    /* border: 1px;
+    border-style: solid; */
+    
+}
+.container {
+    /* border: 1px;
+    border-style: solid;
+    background-color: aliceblue; */
+    max-width: 1440px;
+    margin: 0 auto;
+    /* height: 78px; */
+    
+}
+
+.logo-block,
+.social-block{
+    /* border: 1px;
+    border-style: solid;
+    border-color: brown; */
+    display: inline-block;
+    width: 715px;
+    height: 78px;
+}
+.logo-block {
+    border-radius: 0px;
+    font-size: 32px;
+    color: #2E2E2E;
+    line-height: 40%;
+    padding-top: 15px;
+}
+.social-block {
+    text-align: right;
+    height: 37px;
+    padding-right: 252px;
+}
+.logo {
+    float: left;
+    width: 37px;
+    height: 37px;
+    margin-left: 250px;
+    margin-right: 13px;
+}
+
+#facebook {
+    width: 25px;
+    height: 25px;
+    vertical-align: text-top;
+    margin-right: 21px;
+}
+#twitter {
+    width: 25px;
+    height: 20.31px;
+    vertical-align: text-top;
+    
+}
+section {
+    text-align: center;
+}
+.subscribe {
+    padding-top: 102px;
+    background-color: #FAC960;
+}
+.subscribe-text {
+    padding-top: 100px;
+    font-size: 44px;
+    color:  #8A6D2F;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 117px;
+}
+input {
+    width: 560px;
+    height: 57px;
+    font-size: 30px;
+    padding-left: 36px;
+    border: 0px;
+    border-radius: 2px 0px 0px 2px;
+    background: #FFFFFF;
+}
+.button-email{
+    border: 0px;
+    background-color: #A8863D;
+    width: 240px;
+    height: 57px;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.unlimited {
+    padding-top: 77px;
+    background-color: #F2F2F2;
+}
+.unlim-text1, .mobile-text1 {
+    font-size: 37px;
+    color: rgba(0, 0, 0, 0.56);
+}
+.unlim-text2, .mobile-text2 {
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-left: auto;
+    margin-right: auto;
+    width: 819px;
+}
+.infinity {
+    margin-top: 56px;
+    margin-bottom: 81px;
+    width: 197px;
+    height: 96px;
+}
+.mobile {
+    padding-top: 76px;
+}
+.mobile-phone {
+    margin-top: 32px;
+    margin-bottom: 19px;
+    width: 190px;
+    height: 354.57px;
+}
+
+.reference {
+    padding-top: 54px;
+    background-color: #FAC960;
+}
+.refer-text1 {
+    font-size: 37px;
+    color: #8A6D2F;
+}
+.refer-text2 {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.refer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.refer-button {
+    width: 61px;
+    height: 22px;
+    background-color: #FFFFFF;
+    border: 1px solid #758696;
+    border-radius: 3px;
+    margin-top: 33px;
+    margin-bottom: 107px;
+}
+footer {
+    text-align: center;
+    padding-bottom: 81px;
+}
+.logo-footer{
+    width: 37px;
+    height: 37px;
+    margin-top: 81px;
+}
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.twitter-icon {
+    width: 18px;
+    height: 14.63px;
+}
+.facebook-icon {
+    width: 17px;
+    height: 17px;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 24px;
+}
+.email-icon {
+    width: 16.88px;
+    height: 14.77px;
+}
