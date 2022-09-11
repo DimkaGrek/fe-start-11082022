@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+header {
+    padding: 16px 12px;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo-block{
+    width: 50%;
+    font-weight: 600;
+    font-size: 27px;
+    float: left;
+}
+.menu-block {
+    font-weight: 500;
+    font-size: 21px;
+    float: right;
+}
+a.button {
+    outline: none;
+    text-decoration: none;
+    border: 1px solid #2203E4;
+    color: #2203E4;
+    padding-left: 24px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 16px;
+}
+a.menu{
+    outline: none;
+    text-decoration: none;
+    color: black;
+    padding-right: 24px;   
+}
+.title-section {
+    padding: 120px 0px;
+}
+.title-text {
+    padding-left: 216px;
+    width: 55%;
+    padding-top: 150px;
+}
+p.title1 {
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 0.2;
+}
+p.text1{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 14px;
+}
+.button-check {
+    color: #575757;
+    border: 1px solid #575757;
+    padding: 10px 16px;
+    background: white;
+    text-decoration: none;
+}
+.button-check:hover{
+    color: white;
+    background: gray;
+}
+.title_iphone img{
+    float: right;
+}
+
+.authors-div {
+    padding-left: 420px;
+    width: 1000px;
+    text-align: center;
+}
+.authors-title {
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0px;
+}
+.authors-text {
+    font-weight: 400;
+    font-size: 16px;
+}
+.author-info {
+    padding-top: 36px;
+    padding-bottom: 145px;
+}
+.img-left{
+    float: left;
+    padding-left: 131px;
+    padding-right: 46px;
+}
+.author {
+    float: left;
+    width: 70%;
+}
+p.author-name {
+    margin-top: 0px;
+}
+#auth-name {
+    font-weight: 600;
+    font-size: 27px;
+}
+#auth-profession {
+    font-weight: 500;
+    font-size: 21px;
+    color: #575757;
+}
+.author-text {
+    font-weight: 400;
+    font-size: 16px;
+}
+.linkedin-icon {
+    width: 22px;
+    height: 22px;
+}
+.instagram-icon {
+    width: 22px;
+    height: 22px;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+.facebook-icon {
+    width: 14px;
+    height: 25px;
+}
+.author-menu {
+    position: relative;
+    float: right;
+    padding-right: 226px;
+}
+.author-menu p{
+    padding-left: 25px;
+}
+.auth-start {
+    margin-top: 0px;
+}
+#auth-name-other {
+    font-weight: 500;
+    font-size: 21px;
+    color: #DEA405;
+}
+#auth-prof-other {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFBE0B;
+}
+div.author-menu::before{
+    content: "<";
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    top: 40%;
+} 
+
+.forwho {
+    background: rgba(0, 98, 255, 1);
+    color: white;
+    padding-top: 41px;
+    padding-bottom: 71px;
+    text-align: center;
+}
+.title_blocks {
+    margin: 0 auto;
+    width: 611px;
+    text-align: center;
+}
+.title_block {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+.text_block {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+.forwho-center {
+    margin: 0 145px;
+    padding: 40px 0;
+}
+.forwhom {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.item {
+    width: 600px;
+    font-weight: 600;
+    font-size: 27px;
+    float: left;
+}
+.forwho-img {
+    float: left;
+    margin-right: 34px;
+    margin-bottom: 46px;
+    /* padding: 0px 30px 30px 0px; */
+    width: 122px;
+    height: 125px;
+    vertical-align: middle;
+}
+.forwhom>p{
+    font-weight: 600;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.white_button{
+    color: #2203E4;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid #2203E4;
+    padding: 10px 16px;
+    background: #FFFFFF;
+}
+.white_button:hover {
+    color: white;
+    background-color: grey;
+}
+
+.check_demo{
+    padding-top: 63px;
+    padding-bottom: 130px;
+    text-align: center;
+}
+.video_block{
+    margin: 0 175px;
+}
+.video_block img {
+    display: inline-block;
+    float: right;
+    width: 444px;
+    height: 296px;
+    margin-left: 50px;
+}
+.video_title {
+    font-weight: 500;
+    font-size: 21px;
+    color: black;
+}
+.video_text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #575757;
+    
+}
+.opinions{
+    padding-top: 67px;
+    padding-bottom: 67px;
+    text-align: center;
+    background: rgba(255, 190, 11, 1);
+}
+.comments_overflow{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 12px
+}
+.comment_block{
+    width: 702px;
+    height: 230px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.12);
+    text-align: left;
+}
+div.comments_overflow div.comment_block:first-child, 
+div.comments_overflow div.comment_block:last-child{
+    position: absolute;
+    
+    opacity: 0.5;
+}
+div.comments_overflow div:first-child{
+    left: -350px;
+}
+div.comments_overflow div:last-child{
+    right: -350px;
+}
+div.comments_text{
+    padding-top: 30px;
+    padding-right: 16px;
+}
+.comments_text::before{
+    content: url(/hw3/img/cloud.png);
+    float: left;
+    padding: 60px 16px 50px 16px;
+}
+.comment_prof{
+    font-weight: 500;
+    font-size: 21px;
+    margin-top: 0px;
+}
+.comment_text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #575757;
+}
+.stars{
+    display: inline-block;
+    width: 117px;
+    height: 25px;
+    background-image: url(/hw3/img/star.png);
+    background-repeat: repeat-x;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.comments_text h3{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 27px;
+    margin-bottom: 0px;
+}
+
+footer{
+    padding-top: 49px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.iphone_block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.iphone_block img{
+    width: 327px;
+    height: 321px;
+    margin-left: 280px;
+}
+.my_product_title{
+    font-weight: 600;
+    font-size: 36px;
+    color: #2203E4;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.my_product_text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #575757;
+}
+.blue_button{
+    color: white;
+    border: 1px solid blue;
+    padding: 10px 16px;
+    background: #0062FF;
+}
+.blue_button:hover{
+    background: white;
+    color: blue;
+}
+
+.waiting{
+    font-weight: 600;
+    font-size: 27px;
+}
+#email{
+    margin: 0 auto;
+    width: 508px;;
+}
+#email input{
+    border-radius: 15px;
+    display: block;
+    width: 100%;
+    padding: 25px 0 25px 24px;
+    background: rgba(58, 134, 255, 0.2);
+    border: none;
+    margin-top: 40px;
+}
+#email button{
+    width: 100%;
+}
