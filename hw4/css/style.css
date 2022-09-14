@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.dot_yellow:after{
+    content: ".";
+    color:#FAE800;
+}
+.dot_white:after{
+    content: ".";
+    color: #FFFFFF;
+}
+
+.float-left {
+    float: left;
+}
+.float-right{
+    float: right;
+}
+header {
+    background-color: black;
+}
+.container-header{
+    width: 100%;
+    min-height: 64px;
+}
+.logo {
+    width: 37%;
+    vertical-align: middle;
+    padding-left: 3%;
+}
+.logo>h2{
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.header-menu{
+    width: 63%;
+    vertical-align: middle;
+    text-align: end;
+    padding-top: 20px;
+    padding-right: 4%;
+}
+.header-menu>a{
+    display: inline-block;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    height: 24px;
+    min-width: 80px;
+    max-width: 120px;
+}
+.email-icons,
+.twit-icons{
+    display: inline-block;
+}
+.twit-icons img {
+    width: 21px;
+    height: 17px;
+    margin-right: 13px;
+}
+.email-icons img{
+    width: 25px;
+    height: 19px;
+}
+.im-circuit{
+    background-color: #FAE800;
+    padding-top: 120px;
+    padding-bottom: 128px;
+    text-align: center;
+}
+.cont-circuit{
+    width: 92%;
+    text-align: center;
+    margin: 0 auto;
+}
+.cont-circuit>h1{
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 96px;
+    margin: 0 auto;
+}
+.cont-circuit>p{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    min-height: 120px;
+}
+h2 {
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.about-me{
+    max-width: 552px;
+    margin: 32px auto;
+}
+.about-me>h2{
+    text-align: center;
+}
+.about-me>p{
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    text-align: justify;
+}
+
+.section-project{
+    display: block;
+}
+.cont-project{
+    max-width: 832px;
+    margin: 32px auto;
+    padding: 0;
+    text-align: center;
+}
+.cont-project>h2{
+    margin-bottom: 0px;
+}
+.project-card{
+    margin: 16px auto;
+    width: 30.72%;
+    height: 384px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.743515) 6.67%, rgba(0, 0, 0, 0.723368) 13.33%, rgba(0, 0, 0, 0.688755) 20%, rgba(0, 0, 0, 0.639441) 26.67%, rgba(0, 0, 0, 0.576169) 33.33%, rgba(0, 0, 0, 0.501087) 40%, rgba(0, 0, 0, 0.417982) 46.67%, rgba(0, 0, 0, 0.332018) 53.33%, rgba(0, 0, 0, 0.248913) 60%, rgba(0, 0, 0, 0.173831) 66.67%, rgba(0, 0, 0, 0.110558) 73.33%, rgba(0, 0, 0, 0.0612449) 80%, rgba(0, 0, 0, 0.0266325) 86.67%, rgba(0, 0, 0, 0.0064854) 93.33%, rgba(0, 0, 0, 0) 100%), url(../img/background1.png);
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+    border-radius: 10px;
+}
+.cent-card{
+    margin-left: 28px;
+    margin-right: 28px;
+}
+.project>span{
+    position: absolute;
+    width: 76.47%;
+    left: 6.25%;
+    right: 17.28%;
+    top: 3.39%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: start;
+}
+.see-more{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #F8C822;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: none;
+}
+.see-more:hover{
+    color: black;
+}
+
+.contact-me{
+    max-width: 693px;
+    margin: 0 auto;
+}
+.post{
+    position: relative;
+    background: url(../img/bg_post.png);
+    width: 47.33%;
+    height: 497.18px;
+    filter: drop-shadow(0px 2px 4px rgba(100, 100, 100, 0.498039));
+    border-radius: 10px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.online{
+    position: relative;
+    background: url(../img/bg_notebook.png);
+    width: 47.33%;
+    height: 497.18px;
+    filter: drop-shadow(0px 2px 4px rgba(100, 100, 100, 0.498039));
+    border-radius: 10px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.post-text, .online-text{
+    position: absolute;
+    bottom: 13%;
+    left: 23%;
+}
+.post-text p, .online-text p {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+footer{
+    padding-top: 37px;
+    min-height: 61px;
+}
+.cont-foot{
+    margin: 0 auto;
+    width: 93%;
+}
+.foot-nav{
+    padding-top: 7px;
+}
+.foot-logo>h2{
+    font-size: 24px;
+}
+.foot-nav nav{
+    display: inline-block;
+}
+.foot-nav ul{
+   margin-bottom: 0px;
+}
+.foot-url>li{
+    display: inline-block;
+}
+.foot-url a{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.copyright{
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+}
+.copyright p{
+    text-align: center;
+    margin-top: 10%;
+}
+.copyright span{
+    color: #FC4850;
+}
