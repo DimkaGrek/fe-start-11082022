@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+/* body{
+    width: 1200px;
+    background-image: url(../img/fon_back.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: auto;
+    background-attachment: local;
+} */
+.item{
+    padding: 50px;
+    width: 30%;
+}
+.big{
+    background-color: green;
+    height: 200px;
+    
+}
+.small{
+    background-color: brown;
+    height: 100px;
+}
+.midle{
+     background-color: yellow;
+     height: 150px;
+}
+.row{
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: baseline;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.inline-flex{
+    display: inline-flex;
+}
